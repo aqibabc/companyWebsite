@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+.UniqueTech{font-family: "Inspiration", cursive;}
+.containerbody{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+  
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
