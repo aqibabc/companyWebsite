@@ -1,5 +1,7 @@
 import AlcalineWorksCard from "@/app/(components)/alcalineWorksCard/AlcalineWorksCard";
 import TittleHeading from "@/app/(components)/atom/TittleHeading";
+import Image from "next/image";
+import line from "../../assets/image/Untitled-1.png";
 import React from "react";
 
 export default function AlcalineWorks() {
@@ -9,12 +11,13 @@ export default function AlcalineWorks() {
         firstName="How Development"
         lastName="Through Alcaline Works"
       />
-      <div className="flex flex-wrap my-[80px] justify-between">
+      <div className="flex flex-wrap my-[80px] justify-around">
         <AlcalineWorksCard />
         <AlcalineWorksCard />
         <AlcalineWorksCard />
       </div>
-      <div className="flex flex-wrap mb-[80px] justify-between">
+      <Image src={line} className="w-full" alt="hello" />
+      <div className="flex flex-wrap my-[80px] justify-around">
         <AlcalineWorksCard />
         <AlcalineWorksCard />
         <AlcalineWorksCard />
