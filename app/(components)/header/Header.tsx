@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <nav className="bg-white">
         <ul
-          className={`lg:flex lg:items-center border-y-2 border-[#DE4396] lg:border-0 md:pb-0 pb-12   md:static bg-white absolute left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-100 ease-in ${
+          className={`lg:flex lg:items-center border-y-2 border-[#DE4396] lg:border-0 lg:pb-0 pb-12   lg:static bg-white absolute left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-100 ease-in ${
             open ? "top-20 " : "top-[-100%]"
           }`}
         >

@@ -11,13 +11,17 @@ export default function AlcalineWorks() {
         firstName="How Development"
         lastName="Through Alcaline Works"
       />
-      <div className="flex flex-wrap my-[80px] justify-around">
+      <div className="flex flex-wrap mt-[80px] justify-around">
         <AlcalineWorksCard />
         <AlcalineWorksCard />
         <AlcalineWorksCard />
       </div>
-      <Image src={line} className="w-full" alt="hello" />
-      <div className="flex flex-wrap my-[80px] justify-around">
+      <Image
+        src={line}
+        className="w-full my-[0px] lg:my-[80px] lg:block hidden"
+        alt="hello"
+      />
+      <div className="flex flex-wrap mb-[80px] justify-around">
         <AlcalineWorksCard />
         <AlcalineWorksCard />
         <AlcalineWorksCard />

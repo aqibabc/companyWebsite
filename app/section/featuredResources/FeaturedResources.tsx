@@ -21,20 +21,6 @@ export default function FeaturedResources() {
           <FeaturedResourcesCard img={cardimg4} />
         </div>
       </div>
-      <div className="my-[80px]">
-        <div className="flex px-[84px] py-[50px] rounded-lg justify-around items-center bg-[#E4ECF7]">
-          <h1 className="text-[35px] font-semibold">
-            Hire the best developers and <p>designers around!</p>
-          </h1>
-          <div className="text-center">
-            <Image src={topi} alt="topi" />
-            <button className="bg-gradient-to-b my-12 from-[#FFC656] to-[#F16063] cursor-pointer rounded-[5px] text-white py-1.5 px-3 lg:py-2.5 lg:px-6">
-              Hire Top
-            </button>
-            <Image src={bottomi} alt="topi" />
-          </div>
-        </div>
-      </div>
     </>
   );
 }
