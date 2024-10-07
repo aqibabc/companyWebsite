@@ -1,6 +1,5 @@
 import TittleHeading from "@/app/(components)/atom/TittleHeading";
 import ProjectCard from "@/app/(components)/projectCard/ProjectCard";
-import ServicesCard from "@/app/(components)/servicesCard/ServicesCard";
 import card1 from "../../assets/image/Case-study__image (1).png";
 import arrow from "../../assets/image/arrow.png";
 import card2 from "../../assets/image/Case-study__image (2).png";

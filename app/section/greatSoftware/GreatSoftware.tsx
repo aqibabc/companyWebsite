@@ -2,10 +2,8 @@ import TittleHeading from "@/app/(components)/atom/TittleHeading";
 import Image from "next/image";
 import img1 from "../../assets/image/business1.png";
 import img2 from "../../assets/image/business2.png";
-import img3 from "../../assets/image/business.png";
 import man1 from "../../assets/image/business.png";
 import man2 from "../../assets/image/business.png";
-import man3 from "../../assets/image/business.png";
 import Link from "next/link";
 import GreatSoftCard from "@/app/(components)/GreatSoft/GreatSoftCard";
 

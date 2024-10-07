@@ -4,10 +4,7 @@ import cardimg1 from "../../assets/image/card-1.png";
 import cardimg2 from "../../assets/image/card-2.png";
 import cardimg3 from "../../assets/image/card-3.png";
 import cardimg4 from "../../assets/image/card-4.png";
-import topi from "../../assets/image/Group 38.png";
-import bottomi from "../../assets/image/Group 39.png";
 import FeaturedResourcesCard from "@/app/(components)/featuredResourcesCard/FeaturedResourcesCard";
-import Image from "next/image";
 
 export default function FeaturedResources() {
   return (
