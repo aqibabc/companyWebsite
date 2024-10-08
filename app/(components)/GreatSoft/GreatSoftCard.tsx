@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import arrow from "../../assets/image/arrow.png";
 import Link from "next/link";
 type Card = {
   manimg: string | StaticImageData;
